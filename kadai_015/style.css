@@ -1,0 +1,36 @@
+body {
+  font-family: "Arial", "Meiryo";
+  font-size: 20px;
+}
+.blue {
+  color: skyblue;
+}
+
+.pink {
+  color: rgb(255, 192, 203);
+}
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+h1 {
+  font-family: 'Josefin Sans', sans-serif; /* 指定フォント＋総称フォント */
+  font-size: 2rem; /* ルート要素(1rem)の2倍 */
+  letter-spacing: 1.2em; /* 文字サイズの1.2倍の間隔 */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4); /* 影の例 */
+  border-bottom: 3px solid rgb(115, 115, 114); /* 下線 */
+}
+/* 全てのテキストを中央寄せ */
+body {
+  text-align: center;
+}
+
+/* id="basic" 内の p 要素を太字に */
+#basic p {
+  font-weight: bold;
+}
+
+/* それ以外の p は通常の太さ */
+body p {
+  font-weight: normal;
+}
